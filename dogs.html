@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Dog Products on Amazon — PawsFinds</title>
+<meta name="description" content="The best dog products on Amazon — toys, treats, harnesses, grooming tools and more. Curated picks with thousands of five-star reviews.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.page-hero { padding: 64px 0 48px; text-align: center; }
+.page-hero .hero-tag { display:inline-block; background:#f0f8ff; color:#1a6bb5; font-size:13px; font-weight:500; padding:6px 14px; border-radius:99px; margin-bottom:16px; }
+.page-hero h1 { font-size: clamp(32px, 5vw, 52px); color: var(--dark); margin-bottom: 12px; }
+.page-hero p { color: var(--muted); font-size: 17px; max-width:560px; margin:0 auto; }
+.filter-bar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:36px; }
+.filter-btn { background:var(--white); border:1px solid var(--border); border-radius:99px; padding:8px 18px; font-size:13px; font-weight:500; color:var(--muted); cursor:pointer; transition:all 0.2s; font-family:'DM Sans',sans-serif; }
+.filter-btn.active, .filter-btn:hover { background:var(--orange); color:white; border-color:var(--orange); }
+.disclosure { background:var(--orange-light); border-left:3px solid var(--orange); padding:12px 16px; border-radius:var(--radius-sm); font-size:13px; color:var(--muted); margin-bottom:36px; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">🐾 PawsFinds</a>
+    <div class="nav-links">
+      <a href="cats.html">Cats</a>
+      <a href="dogs.html">Dogs</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="hero-tag">🐶 For dog lovers</span>
+    <h1>The Best Dog Products<br>on Amazon</h1>
+    <p>Hand-picked toys, treats, harnesses, and essentials — all with thousands of verified five-star reviews.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="disclosure">
+    <strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases at no extra cost to you.
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Toys</button>
+    <button class="filter-btn">Treats</button>
+    <button class="filter-btn">Walking</button>
+    <button class="filter-btn">Grooming</button>
+    <button class="filter-btn">Feeding</button>
+  </div>
+
+  <div class="products-grid" style="margin-bottom:80px;">
+
+    <div class="product-card">
+      <div class="product-badge">Best Seller</div>
+      <div class="product-img">🦺</div>
+      <div class="product-info">
+        <span class="product-cat">Walking</span>
+        <h3>No-Pull Dog Harness</h3>
+        <p>Front-clip design stops pulling without choking. Adjustable, escape-proof, padded for comfort. Has a handle on the back for extra control. Works on all sizes and breeds.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-badge">Editor's Pick</div>
+      <div class="product-img">🧸</div>
+      <div class="product-info">
+        <span class="product-cat">Toys</span>
+        <h3>KONG Classic Chew Toy</h3>
+        <p>The legendary chew toy. Stuff with peanut butter or treats for hours of entertainment. Nearly indestructible natural rubber, vet recommended for heavy chewers. Freeze overnight for extra challenge.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-badge hot">Top Rated</div>
+      <div class="product-img">🥣</div>
+      <div class="product-info">
+        <span class="product-cat">Feeding</span>
+        <h3>Slow Feeder Dog Bowl</h3>
+        <p>Maze design makes dogs eat 10x slower. Reduces bloating, vomiting, and digestive problems. Dishwasher safe, non-slip base, available in multiple sizes for all breeds.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">🦴</div>
+      <div class="product-info">
+        <span class="product-cat">Treats</span>
+        <h3>Grain-Free Training Treats</h3>
+        <p>Real chicken, low calorie, perfect for training sessions. No fillers, no artificial flavors. Small size means you can reward frequently without overfeeding. Dogs go absolutely crazy for these.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">🎾</div>
+      <div class="product-info">
+        <span class="product-cat">Toys</span>
+        <h3>Automatic Ball Launcher</h3>
+        <p>Launches tennis balls at 3 distance settings. Dog drops ball in, machine launches it automatically. Perfect for high-energy dogs. Indoor and outdoor safe.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-badge deal">Deal</div>
+      <div class="product-img">🪮</div>
+      <div class="product-info">
+        <span class="product-cat">Grooming</span>
+        <h3>FURminator Deshedding Brush</h3>
+        <p>Reduces shedding by up to 90%. Reaches the undercoat without damaging the top coat. One brush session per week dramatically reduces fur on furniture and clothes.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">🧴</div>
+      <div class="product-info">
+        <span class="product-cat">Grooming</span>
+        <h3>Waterless Dog Shampoo Spray</h3>
+        <p>Clean and deodorize between baths in minutes. No rinsing needed, just spray and brush. Safe for all coat types, pleasant scent. Perfect for dogs that hate baths.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★☆</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">🎒</div>
+      <div class="product-info">
+        <span class="product-cat">Walking</span>
+        <h3>Dog Backpack Carrier</h3>
+        <p>Carry small dogs hands-free on hikes and walks. Mesh ventilation panels keep dogs cool and comfortable. Fits dogs up to 20 lbs. Airline carry-on approved.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-badge">Best Seller</div>
+      <div class="product-img">💊</div>
+      <div class="product-info">
+        <span class="product-cat">Health</span>
+        <h3>Probiotic Chews for Dogs</h3>
+        <p>Supports digestive health, reduces gas, and boosts immune system. Tastes like a treat so dogs love taking them. Vet-formulated, no artificial ingredients.</p>
+        <div class="product-footer">
+          <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+          <div class="stars">★★★★★</div>
+        </div>
+        <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <a href="index.html" class="logo">🐾 PawsFinds</a>
+        <p class="footer-desc">Your trusted guide to the best pet products on Amazon — curated by pet lovers.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="blog/index.html">Blog</a>
+      </div>
+    </div>
+    <p class="affiliate-disclosure">As an Amazon Associate I earn from qualifying purchases. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+  </div>
+</footer>
+
+</body>
+</html>

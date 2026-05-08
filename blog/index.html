@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — PawsFinds</title>
+<meta name="description" content="Pet product guides, reviews, and Amazon deals — updated weekly by PawsFinds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.page-hero { padding: 64px 0 48px; text-align: center; }
+.page-hero h1 { font-size: clamp(32px, 5vw, 48px); color: var(--dark); margin-bottom: 12px; }
+.page-hero p { color: var(--muted); font-size: 17px; }
+.blog-full-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding-bottom: 80px; }
+.blog-card-full { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; text-decoration: none; transition: box-shadow 0.2s, transform 0.2s; }
+.blog-card-full:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.09); transform: translateY(-2px); }
+.blog-card-full .blog-emoji { font-size: 40px; display: block; margin-bottom: 16px; }
+.blog-card-full .blog-tag { font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.8px; color: var(--orange); display: block; margin-bottom: 8px; }
+.blog-card-full h3 { font-size: 18px; color: var(--dark); margin-bottom: 10px; line-height: 1.4; }
+.blog-card-full p { font-size: 14px; color: var(--muted); }
+@media (max-width: 768px) { .blog-full-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">🐾 PawsFinds</a>
+    <div class="nav-links">
+      <a href="../cats.html">Cats</a>
+      <a href="../dogs.html">Dogs</a>
+      <a href="index.html">Blog</a>
+      <a href="../about.html">About</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>The Blog</h1>
+    <p>Pet product guides, honest reviews, and the best Amazon deals</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="blog-full-grid">
+    <a href="best-cat-toys.html" class="blog-card-full">
+      <span class="blog-emoji">🐱</span>
+      <span class="blog-tag">Cats</span>
+      <h3>10 Best Cat Toys on Amazon Under $20</h3>
+      <p>Keep your indoor cat entertained without breaking the bank. Ranked by reviews and value.</p>
+    </a>
+    <a href="best-dog-products.html" class="blog-card-full">
+      <span class="blog-emoji">🐶</span>
+      <span class="blog-tag">Dogs</span>
+      <h3>Must-Have Dog Accessories Every Owner Needs</h3>
+      <p>From leashes to slow feeders — the products dog owners genuinely swear by.</p>
+    </a>
+    <a href="amazon-pet-deals.html" class="blog-card-full">
+      <span class="blog-emoji">🛒</span>
+      <span class="blog-tag">Deals</span>
+      <h3>Best Pet Deals on Amazon This Month</h3>
+      <p>The biggest discounts on top-rated pet products right now. Updated monthly.</p>
+    </a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <a href="../index.html" class="logo">🐾 PawsFinds</a>
+        <p class="footer-desc">Your trusted guide to the best pet products on Amazon — curated by pet lovers.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../about.html">About</a>
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="index.html">Blog</a>
+      </div>
+    </div>
+    <p class="affiliate-disclosure">As an Amazon Associate I earn from qualifying purchases. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+  </div>
+</footer>
+
+</body>
+</html>

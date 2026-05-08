@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PawsFinds — Best Pet Products on Amazon</title>
+<meta name="description" content="PawsFinds — curated pet product picks for cats, dogs, and small pets. Honest reviews, top deals, updated weekly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">🐾 PawsFinds</a>
+    <div class="nav-links">
+      <a href="cats.html">Cats</a>
+      <a href="dogs.html">Dogs</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="about.html">About</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-text">
+    <span class="hero-tag">Curated for pet lovers</span>
+    <h1>The best pet products<br><em>on Amazon, found.</em></h1>
+    <p>We find and review the best pet products so your furry friends only get the best. Updated weekly with new picks and deals.</p>
+    <a href="#featured" class="btn-primary">See top picks →</a>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card">🐱</div>
+    <div class="hero-card offset">🐶</div>
+    <div class="hero-card offset2">🐹</div>
+  </div>
+</header>
+
+<section class="categories">
+  <div class="container">
+    <div class="cat-grid">
+      <a href="cats.html" class="cat-card cat-cats">
+        <span class="cat-emoji">🐱</span>
+        <h3>Cat Products</h3>
+        <p>Toys, beds, feeders & more</p>
+      </a>
+      <a href="dogs.html" class="cat-card cat-dogs">
+        <span class="cat-emoji">🐶</span>
+        <h3>Dog Products</h3>
+        <p>Treats, leashes, grooming & more</p>
+      </a>
+      <a href="small-pets.html" class="cat-card cat-small">
+        <span class="cat-emoji">🐹</span>
+        <h3>Small Pets</h3>
+        <p>Cages, food, accessories & more</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="featured" id="featured">
+  <div class="container">
+    <div class="section-header">
+      <h2>Top Picks This Week</h2>
+      <p>Hand-picked, highly rated, all available on Amazon</p>
+    </div>
+    <p style="text-align:center; font-size:13px; color:var(--muted); margin-bottom:32px; background:var(--cream); border:1px solid var(--border); padding:10px 16px; border-radius:8px; max-width:600px; margin-left:auto; margin-right:auto; margin-top:-24px;"><strong>Disclosure:</strong> As an Amazon Associate I earn from qualifying purchases at no extra cost to you.</p>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <div class="product-badge">Best Seller</div>
+        <div class="product-img">🎾</div>
+        <div class="product-info">
+          <span class="product-cat">Dog Toys</span>
+          <h3>Interactive Ball Launcher</h3>
+          <p>Keeps your dog entertained for hours. Automatic, 3 distance settings, safe for all breeds.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-badge hot">Hot Right Now</div>
+        <div class="product-img">🪺</div>
+        <div class="product-info">
+          <span class="product-cat">Cat Beds</span>
+          <h3>Self-Warming Cave Bed</h3>
+          <p>Reflects your cat's own body heat. Machine washable, non-slip bottom, fits cats up to 15 lbs.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-badge deal">Deal</div>
+        <div class="product-img">🐟</div>
+        <div class="product-info">
+          <span class="product-cat">Cat Toys</span>
+          <h3>Feather Wand Set (6-pack)</h3>
+          <p>Six different wands to keep cats guessing. Crinkle, feather, ribbon — all in one set.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★☆</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">🍖</div>
+        <div class="product-info">
+          <span class="product-cat">Dog Treats</span>
+          <h3>Grain-Free Training Treats</h3>
+          <p>Low calorie, real chicken, perfect for training. No fillers, no artificial flavors.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-badge">Editor's Pick</div>
+        <div class="product-img">⛲</div>
+        <div class="product-info">
+          <span class="product-cat">Cat Essentials</span>
+          <h3>Pet Water Fountain</h3>
+          <p>2.5L capacity, ultra-quiet pump, encourages hydration. Works for cats and small dogs.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">🪮</div>
+        <div class="product-info">
+          <span class="product-cat">Grooming</span>
+          <h3>Self-Cleaning Slicker Brush</h3>
+          <p>One-click clean button, gentle on skin, works on all coat types. Vet recommended.</p>
+          <div class="product-footer">
+            <span class="product-price" style="font-size:14px;font-family:var(--font-sans,DM Sans),sans-serif;">Check price on Amazon</span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <a href="YOUR_AMAZON_AFFILIATE_LINK_HERE" class="btn-buy" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="blog-preview">
+  <div class="container">
+    <div class="section-header">
+      <h2>From the Blog</h2>
+      <p>Guides, tips, and honest product breakdowns</p>
+    </div>
+    <div class="blog-grid">
+      <a href="blog/best-cat-toys.html" class="blog-card">
+        <div class="blog-emoji">🐱</div>
+        <div class="blog-info">
+          <span class="blog-tag">Cats</span>
+          <h3>10 Best Cat Toys on Amazon Under $20</h3>
+          <p>Keep your indoor cat entertained without breaking the bank.</p>
+        </div>
+      </a>
+      <a href="blog/best-dog-products.html" class="blog-card">
+        <div class="blog-emoji">🐶</div>
+        <div class="blog-info">
+          <span class="blog-tag">Dogs</span>
+          <h3>Must-Have Dog Accessories Every Owner Needs</h3>
+          <p>From leashes to slow feeders — the products dog owners swear by.</p>
+        </div>
+      </a>
+      <a href="blog/amazon-pet-deals.html" class="blog-card">
+        <div class="blog-emoji">🛒</div>
+        <div class="blog-info">
+          <span class="blog-tag">Deals</span>
+          <h3>Best Pet Deals on Amazon This Month</h3>
+          <p>The biggest discounts on top-rated pet products right now.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <span class="trust-num">Top Picks</span>
+        <span class="trust-label">Carefully curated only</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">4★ & Up</span>
+        <span class="trust-label">Minimum rating standard</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">Weekly</span>
+        <span class="trust-label">Updated picks</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">100%</span>
+        <span class="trust-label">Honest recommendations</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <a href="index.html" class="logo">🐾 PawsFinds</a>
+        <p class="footer-desc">Your trusted guide to the best pet products on Amazon — curated by pet lovers.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="blog/index.html">Blog</a>
+      </div>
+    </div>
+    <p class="affiliate-disclosure">As an Amazon Associate I earn from qualifying purchases. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+  </div>
+</footer>
+
+</body>
+</html>
